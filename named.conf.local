@@ -6,3 +6,7 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "ffmd" IN {
+    type master;
+    file "/etc/bind/ffmd.zone";
+};
