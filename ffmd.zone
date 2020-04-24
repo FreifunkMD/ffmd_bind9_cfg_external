@@ -12,7 +12,7 @@ ns1.ffmdnic                         A       10.139.0.53
                                     AAAA    fda9:26e:5805::9
                                     AAAA    fda9:26e:5805::2
 ;
-nextnode                            A       10.139.0.1
+node                                A       10.139.0.1
                                     AAAA    fda9:026e:5805::1
 ;
 1.ntp                               AAAA    fda9:26e:5805::9
