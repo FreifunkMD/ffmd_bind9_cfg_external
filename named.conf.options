@@ -13,6 +13,10 @@ options {
 	recursion yes;
 	allow-query {
         any;
+        //127.0.0.1;
+        //::1;
+        //fda9:026e:5805::/48;
+        //10.139.0.0/17;
 	};
 
 	forwarders {
