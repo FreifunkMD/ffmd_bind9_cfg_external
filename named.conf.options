@@ -10,9 +10,19 @@ options {
 	// Uncomment the following block, and insert the addresses replacing 
 	// the all-0's placeholder.
 
-	// forwarders {
-	// 	0.0.0.0;
-	// };
+	recursion yes;
+	allow-query {
+        any;
+        //127.0.0.1;
+        //::1;
+        //fda9:026e:5805::/48;
+        //10.139.0.0/17;
+	};
+
+	forwarders {
+        // ns1.netz39.de
+	 	5.45.97.56;
+	};
 
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
